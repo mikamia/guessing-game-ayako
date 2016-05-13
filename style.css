@@ -174,11 +174,12 @@ textarea {
     width: 12%;
     height: 80px;
     padding: 20px;
-    font-size:40px;
+    font-size:200%;
+    color: #475274;
     text-align: center;
     margin-bottom: 20px;
     border-radius: 3px;
-    border: 1px solid #cccccc;
+    border: 1px solid #bab8b8;
 }
 
 textarea{
