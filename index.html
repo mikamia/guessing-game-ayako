@@ -22,13 +22,16 @@
         <section class="section-mid">
         <div class="row">
         <p class="long-copy">
-            <input type="text"/>
+            <input id="guess" type="text"/>
         
        <br><br>
-        <a href="#" class="btn btn-full">is this right?</a>
-        <a href="#" class="btn btn-ghost">just tell me</a>
+        <a href="#" id="submit" class="btn btn-full" onclick="playersGuessSubmission()">Is this right?</a>
+        <a href="#" class="btn btn-ghost" onclick="provideHint()">Hint</a>
             <br><br>
         </p>
+        <p class="long-copy" id="results"></p>
+        <p class="long-copy" id="lowerHigher"></p>
+        <p class="long-copy" id="hint"></p>
         </div>
             </section>
           
@@ -36,11 +39,13 @@
         <div class="row">
         <h1>Wasn't that fun? Let's play again.</h1>
             <p class="long-copy">
-            <a href="#" class="btn btn-full">sure</a>
+            <a href="#" onclick ="playAgain()" class="btn btn-full">Sure.</a>
             </p>
         </div>
             </section>
     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        <script src="guessingGame.js"></script>
         
     </body>
 </html>

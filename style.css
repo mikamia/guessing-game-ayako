@@ -64,6 +64,8 @@ h1 {
 
 
 
+
+
 /*-----PARAGRAPHS------*/
 
 .long-copy {
@@ -72,6 +74,21 @@ h1 {
     text-align: center;
 }
 
+.win {
+    font-size: 300%;
+    word-spacing: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.lost {
+    font-size: 300%;
+    word-spacing: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
 
 /*-----BUTTONS------*/
 
